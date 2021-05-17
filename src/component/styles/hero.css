@@ -25,7 +25,7 @@
     /* border: 1px solid red; */
 }
 
-button{
+button.herobtn{
     width: 109px;
     height: 35px;
     cursor: pointer;

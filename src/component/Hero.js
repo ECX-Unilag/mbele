@@ -10,8 +10,8 @@ class Hero extends Component {
                 <p>A Conference Both Tech and Non-Tech individuals</p>
                 <Timer/>
                 <div className="clicks">
-                    <button>Sign me Up</button>
-                    <button>See Speakers</button>
+                    <button className="herobtn">Sign me Up</button>
+                    <button className="herobtn">See Speakers</button>
                 </div>
             </div>
         )
