@@ -17,15 +17,25 @@
            justify-content: space-between;
            margin-bottom: 30px;
            margin-top: 30px;
+           @include mq(768px){
+            flex-direction: column;
+        }
            .sharebox{
                width: 25%;
                display: flex;
                align-items: center;
+               @include mq(768px){
+                width: 100%;
+                margin-bottom: 30px;
+            }
                .share{
                    font-size: 18px;
                    font-weight: 600;
                    color: #C0C1C7;
                    margin-right: 10px;
+                   @include mq(600px){
+                    font-size: 16px;
+                }
                }
                i{
                    margin-left: 25px;
@@ -41,12 +51,19 @@
                 display: flex;
                 align-items: center;
                 justify-content: flex-end;
-                
+                @include mq(768px){
+                    width: 100%;
+                    margin-bottom: 0px;
+                    justify-content: unset;
+                }
                 .share{
                     font-size: 18px;
                     font-weight: 600;
                     margin-right: 5px;
                     color: #C0C1C7;
+                    @include mq(600px){
+                        font-size: 16px;
+                    }
                 }
                 i{
                     margin-left: 25px;
@@ -76,6 +93,7 @@
                 flex-direction: column;
                 @include mq(768px){
                     width: 100%;
+                    margin-bottom: 20px;
                 }
                 .title{
                     color: #C0C1C7;

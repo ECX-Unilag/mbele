@@ -22,6 +22,15 @@
   margin-top: 30px;
 }
 
+@media screen and (max-width: 768px) {
+  .footer .cover .first {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .footer .cover .first .sharebox {
   width: 25%;
   display: -webkit-box;
@@ -32,11 +41,24 @@
           align-items: center;
 }
 
+@media screen and (max-width: 768px) {
+  .footer .cover .first .sharebox {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+
 .footer .cover .first .sharebox .share {
   font-size: 18px;
   font-weight: 600;
   color: #C0C1C7;
   margin-right: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .footer .cover .first .sharebox .share {
+    font-size: 16px;
+  }
 }
 
 .footer .cover .first .sharebox i {
@@ -58,11 +80,27 @@
           justify-content: flex-end;
 }
 
+@media screen and (max-width: 768px) {
+  .footer .cover .first .follow {
+    width: 100%;
+    margin-bottom: 0px;
+    -webkit-box-pack: unset;
+        -ms-flex-pack: unset;
+            justify-content: unset;
+  }
+}
+
 .footer .cover .first .follow .share {
   font-size: 18px;
   font-weight: 600;
   margin-right: 5px;
   color: #C0C1C7;
+}
+
+@media screen and (max-width: 600px) {
+  .footer .cover .first .follow .share {
+    font-size: 16px;
+  }
 }
 
 .footer .cover .first .follow i {
@@ -110,6 +148,7 @@
 @media screen and (max-width: 768px) {
   .footer .cover .fourbox .eachbox {
     width: 100%;
+    margin-bottom: 20px;
   }
 }
 
