@@ -1,0 +1,105 @@
+@import '../styles/sass/mixin';
+@import '../styles/sass/variables';
+
+.footer{
+    margin-top: 150px;
+    padding: 8px 20px 20px 20px;
+   width: 100%;
+//    border-top: 1px solid #D4AF37;
+   background-color: #00000f;
+   
+   .cover{
+       width: 90%;
+       margin: auto;
+       .first{
+           width: 100%;
+           display: flex;
+           justify-content: space-between;
+           margin-bottom: 30px;
+           margin-top: 30px;
+           .sharebox{
+               width: 25%;
+               display: flex;
+               align-items: center;
+               .share{
+                   font-size: 18px;
+                   font-weight: 600;
+                   color: #C0C1C7;
+                   margin-right: 10px;
+               }
+               i{
+                   margin-left: 25px;
+                   font-size: 20px;
+                   color: #C0C1C7;
+               }
+
+
+           }
+
+           .follow{
+                width: 45%;
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                
+                .share{
+                    font-size: 18px;
+                    font-weight: 600;
+                    margin-right: 5px;
+                    color: #C0C1C7;
+                }
+                i{
+                    margin-left: 25px;
+                    font-size: 20px;
+                    color: #C0C1C7;
+                }
+           }
+           
+       }
+       .hrline{
+            width: 100%;
+            border-bottom: 1px solid #D4AF37;
+            
+        }
+
+        .fourbox{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+           margin-top: 30px;
+            @include mq(768px){
+                flex-direction: column;
+            }
+            .eachbox{
+                width: 23%;
+                display: flex;
+                flex-direction: column;
+                @include mq(768px){
+                    width: 100%;
+                }
+                .title{
+                    color: #C0C1C7;
+                    font-size: 16px;
+                    font-weight: 600;
+                    margin-bottom: 15px;
+                }
+                a{
+                    text-decoration: none;
+                    color: #C0C1C7;
+                    margin-bottom: 15px;
+                }
+                .subscribe{
+                    @include button;
+                    display: block;
+                    width: 80%;
+                    margin-bottom: 10px;
+                    background-color: #D4AF37;
+                    color: black;
+                    font-family: 'poppins',sans-serif;
+                    cursor: pointer;
+
+                }
+            }
+        }
+   }
+}
