@@ -3,6 +3,18 @@ import { color } from "../../theme/color";
 import { font } from "../../theme/font";
 
 
+
+export const CoverNav = styled.div`
+   
+   position:fixed;
+   top:0;
+   right:0;
+   width:100%;
+   background-color:${color.darkblue};
+
+`
+
+
 // nav style
 export const Nav = styled.nav`   
     position:relative;
@@ -103,7 +115,7 @@ export const MobileLink = styled.div`
     ul{
       
       li{
-        margin-bottom: 10px;
+        margin-bottom: 30px;
         list-style-type:none;
         a{
           text-decoration:none;

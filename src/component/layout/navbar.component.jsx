@@ -1,5 +1,5 @@
 import Linked from './navigationlink.component';
-import {Nav} from './linkstyles/linkstyle';
+import {Nav,CoverNav} from './linkstyles/linkstyle';
 import Logoplace from './logo.component';
 import MobileLinkednav from './mobilelink.component';
 
@@ -7,13 +7,17 @@ import MobileLinkednav from './mobilelink.component';
 
 const Navbar = () => {
     return ( 
-        <Nav>
+        <CoverNav>
+            <Nav>
        
                 <Logoplace/>
                 <Linked/>
                 <MobileLinkednav/>
             
-        </Nav>
+            </Nav>
+
+        </CoverNav>
+        
             
            
         
