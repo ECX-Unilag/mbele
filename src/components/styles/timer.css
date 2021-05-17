@@ -1,0 +1,24 @@
+.Timer{
+    border: 1px solid rgb(212, 175, 55);
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    margin-top: 3em;
+    padding: 20px;
+    text-align: center;
+    width: 45%;
+}
+
+section p:first-child,  div:last-child span{
+    font-size: 46px;
+}
+
+@media screen and (max-width: 480px){
+
+    section p:first-child,  div:last-child span{
+        font-size: 29px;
+    }
+
+    small{
+        font-size: 10px;
+    }
+}
