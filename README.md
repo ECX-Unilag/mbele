@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e89ab63f-df93-464c-be54-0ea9ec501121/deploy-status)](https://app.netlify.com/sites/mbele/deploys)
+
 # mbele
 Moving Forward
 
