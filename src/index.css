@@ -6,3 +6,8 @@
 body{
   background-color: #000028;
 }
+
+@font-face{
+  font-family: "Isidora";
+  src: local("Isidora") url("./fonts/Isidora-Regular.otf");
+}
