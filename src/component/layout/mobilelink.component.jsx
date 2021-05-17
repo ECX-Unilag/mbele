@@ -21,10 +21,10 @@ const MobileLinkednav = () => {
             <MobileLink  isOpen = {isShowing} >
                 <div>
                         <ul>
-                            <li> <NavLink onClick={toggleShowing} to='/'>Home</NavLink> </li>
-                            <li> <NavLink onClick={toggleShowing} to='/about'>About</NavLink></li>
-                            <li> <NavLink onClick={toggleShowing} to='/project'>Projects </NavLink></li>
-                            <li> <NavLink onClick={toggleShowing} to='/contact'>Contact</NavLink> </li>
+                            <li> <NavLink onClick={toggleShowing} to='/'>About</NavLink> </li>
+                            <li> <NavLink onClick={toggleShowing} to='/about'>Speakers</NavLink></li>
+                            <li> <NavLink onClick={toggleShowing} to='/project'>Schedule </NavLink></li>
+                            <li> <NavLink onClick={toggleShowing} to='/contact'>Register</NavLink> </li>
 
                         </ul>
                         <Icons>
