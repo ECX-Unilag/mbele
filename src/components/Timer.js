@@ -38,8 +38,9 @@ const Timer = () =>{
 
     useEffect(() => {
         startTimer();
+        const testing = interval.current;
         return() => {
-            clearInterval(interval.current);
+            clearInterval(testing);
         };
     });
 
