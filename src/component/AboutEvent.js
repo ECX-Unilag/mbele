@@ -21,7 +21,7 @@ class AboutEvent extends Component {
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id veniam velit ullam ut? Architecto consequatur id ratione error accusantium quos commodi repellendus, obcaecati optio 
                         voluptas possimus nostrum harum esse praesentium.</p>
                 </div>
-                <div className="eventright"><img src={EventImage} /></div>
+                <div className="eventright"><img src={EventImage} alt='eventimg'/></div>
             </div>
         )
     }
