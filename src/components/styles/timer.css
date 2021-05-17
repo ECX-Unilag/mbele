@@ -21,4 +21,7 @@ section p:first-child,  div:last-child span{
     small{
         font-size: 10px;
     }
+    .Timer{
+        width: 80%;
+    }
 }
